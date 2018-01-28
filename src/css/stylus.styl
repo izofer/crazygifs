@@ -1,0 +1,60 @@
+$borderPix = 0px
+
+body
+	color white
+	font-family: 'Dosis', sans-serif;
+
+body input 
+	margin 10px 0px 0px 0px
+
+#app
+	border $borderPix solid red
+	margin 0 auto
+	justify-content center
+	margin-top 20px
+
+#app .cajas
+	display flex
+	justify-content center
+	margin-bottom 30px
+
+#app .cajas input
+	border-radius 2px
+	width 30%
+	padding 3px 3px 3px 3px
+	margin-right 3px
+
+#app .cajas select
+	border-radius 3px
+	padding 1px 1px 1px 1px
+
+#app .titulo
+	display:flex
+	justify-content center
+
+#app .titulo h1
+	border $borderPix solid green
+	margin-bottom 20px
+
+#app .gifs
+	width 91%
+	margin 0 auto
+	border $borderPix solid green
+	display flex
+	flex-wrap wrap
+	justify-content space-around
+
+#app .gifs img
+	border 1px solid black
+	border-radius 5px
+	margin-bottom 3px
+	
+li
+	list-style none
+
+#app h3
+	text-align center
+	
++below(888px)
+	#app .cajas input
+		width 75%
